@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class hatchetHandler : MonoBehaviour {
+         
+    weaponsHandler weapons;
+
+    private void Awake()
+    {
+        weapons = GetComponentInParent<weaponsHandler>();
+       
+    }
+
+    public void hasTheAnimationEnded() {
+
+        weapons.theAnimationHasEnded = true;
+        //When the animation ends its sets attacks to false so the can start the attack
+        weapons.attack = false;
+    }
+
+    public void hasTheAnimationStarted() {
+
+        weapons.theAnimationHasEnded = false;
+
+    }
+
+   
+}
