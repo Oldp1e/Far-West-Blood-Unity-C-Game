@@ -4,4 +4,6 @@
   
   Qualquer dúvida e caso queiram uma demo favor me contatar pelo e-mail, samuellima06091999@gmail.com
   
+  Caso queiram um resumo do Projeto está no PDF com o nome de Far West Blood Design Documentation v0.02.pdf
+  
   Att, Samuel
